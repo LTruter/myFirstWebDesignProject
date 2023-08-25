@@ -1,0 +1,142 @@
+<!doctype html>
+<!--
+	Author: Lario Truter
+	Date: 17 July 2023
+	Filename: Contactpage.html
+	Description: The Contact us page.
+-->
+<html><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	
+<!-- InstanceBeginEditable name="Title" -->
+<title> Contact page </title>
+<!-- InstanceEndEditable -->
+	
+<link rel="stylesheet" href="../CSS/stylesheet.css"> <!-- External stylesheet -->
+	
+<!-- InstanceBeginEditable name="Style tag" -->
+	<style>
+		section{				/* Setting the font-size for the page */
+			font-size: 20px;
+		}
+		
+		p{						/* Car Corp contact details */
+			padding-left: 40%;
+		}
+		
+		table{					/* Table containing the form */
+			width: 100%;
+			padding-top: 30px;
+		}
+		
+		td{						/* Contains form inputs */
+			text-align: left;
+			padding-left: 40%;
+			padding-bottom: 20px;
+		}
+		
+		input{					/* Made the input fields slightly larger */
+			padding: 5px;
+		}
+	</style>
+<!-- InstanceEndEditable -->
+	
+</head>
+
+<body>
+	
+	<!-- InstanceBeginEditable name="Prologue" --><!-- InstanceEndEditable -->
+	<header>		<!-- The header -->
+		<img src="../Images/Logo/Logo.png" alt="Logo" class="logo"/>	<!-- The website logo -->
+
+		<h1 class="carCorp"> 
+			CAR CORP. <br>		<!-- Website name -->
+			<span class="slogan"> Knowledge fuels your journey! </span>	<!-- Website slogan -->
+		</h1>
+	</header>
+	
+	<aside>		
+		<button id="sidebarClose"> Click Here </button>	<!-- Sidebar open and close button -->
+		
+			<div class="sidebar">			<!-- Sidebar -->
+				<nav class="sidebarLinks">
+					<button id="homeButton"> Home Page </button>	<!-- Home page button -->
+					<button id="allCarsButton"> See All Cars </button>	<!-- All cars button -->
+					<button id="contactButton"> Contact Us </button>  <!-- Contact us button -->
+				</nav>
+			</div>
+	</aside>
+	
+<!-- InstanceBeginEditable name="Main" -->
+	<main>
+		<section>
+			<h1 class="heading"> Contact Us: </h1>
+			
+			<p>
+				<b> Phone us: </b> 021 975 9888 <br>
+				<b> Email us: </b> carcorp@gmail.com	
+			</p>
+			
+			<table>
+				<form>
+					<tr>
+						<td>
+							<label for="name"> 	<!-- Value is used to make a default value -->
+								Name: <input type="text" name="name" value="e.g. John">
+							</label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+							<label for="Surname"> 
+								Surname: <input type="text" name="surname" value="e.g. Doe">
+							</label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+							<label for="Email">
+								Email: <input type="email" name="email" value="e.g. Johndoe@gmail.com">
+							</label> 
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+							<label for="Phone Number">
+								Phone Number: <input type="text" name="phone number" value="e.g. 072 345 1234">
+							</label> 
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+							<label for="Message">
+								Message: <input type="text" style="width: 270px;" name="message" value="Your Message">
+							</label> 
+						</td>
+					</tr>
+					
+					<tr>
+						<td> 
+							<input type="submit" style="font-size: 15px;">
+							<input type="reset" style="font-size: 15px;">
+						</td>
+					</tr>
+				</form>
+			</table>
+		</section>
+	</main>
+	<!-- InstanceEndEditable -->
+	
+	<footer>	<!-- The footer -->
+		<span> &copy; 2023 Car Corp. </span>
+	</footer>
+	
+	<!-- External Javascript -->
+	<script language="javascript" src="../Javascript/Javascript.js"></script>
+</body>
+<!-- InstanceEnd --></html>
