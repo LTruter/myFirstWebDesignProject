@@ -5,17 +5,12 @@ Welcome to my first web design project! This project is a static website created
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Design](#design)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 
 ## Project Overview
 
 In this project, I've created a static website from scratch, showcasing my web design skills. The website serves as a portfolio, and it includes information about me, my projects, and how to get in touch. It also incorporates a few interactive features to enhance the user experience.
-
-## Design
-
-This repository includes Thumbnail and Wireframe designs, providing insights into the design process. You can find these design files in the "design" directory. Feel free to explore the design evolution and see how the project came to life.
 
 ## Technologies Used
 
