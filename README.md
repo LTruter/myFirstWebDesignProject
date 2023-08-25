@@ -23,9 +23,16 @@ In this project, I've created a static website from scratch, showcasing my web d
 
 To view the website and explore the code, follow these steps:
 
-1. Clone this repository to your local machine using `git clone`.
-2. Open the project in Adobe Dreamweaver or your preferred web browser and code editor.
-3. Navigate to the `Homepage.html` file to see the website's homepage.
-4. Feel free to explore the HTML, CSS, and JavaScript files to understand the code.
+1. **Download the Project:**
+   - Click on the green 'Code' button at the top of this repository.
+   - Select 'Download ZIP' to download the project as a ZIP archive.
 
-Thank you for visiting my first web design project repository! I hope you enjoy exploring it as much as I enjoyed creating it.
+2. **Open the Project:**
+   - Extract the downloaded ZIP archive to a location of your choice on your computer.
+   - Open the project in Adobe Dreamweaver or your preferred web browser and code editor.
+
+3. **Explore the Website:**
+   - Navigate to the `Homepage.html` file to see the website's homepage.
+   - Feel free to explore the HTML, CSS, and JavaScript files to understand the code and how the project works.
+
+Happy exploring!
