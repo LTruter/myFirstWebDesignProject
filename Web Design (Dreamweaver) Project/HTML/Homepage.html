@@ -1,0 +1,127 @@
+<!doctype html>
+<!--
+	Author: Lario Truter
+	Date: 17 July 2023
+	Filename: Homepage.html
+	Description: The Home page of the my website.
+-->
+<html><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	
+<!-- InstanceBeginEditable name="Title" -->
+<title> Home page </title>		<!-- Title of the webpage -->
+<!-- InstanceEndEditable -->
+	
+<link rel="stylesheet" href="../CSS/stylesheet.css"> <!-- External stylesheet -->
+	
+<!-- InstanceBeginEditable name="Style tag" -->
+	<style>				/* Internal Stylesheet */
+		.readMore{	/* Read More button */
+			width: 30%;
+			padding: 10px;
+		}
+		
+		.subHeading1{
+			padding-top: 20px;
+		}
+		
+		.introduction{			/* All the paragraphs on the page */
+			padding-left: 250px;
+			padding-right: 200px;
+		}
+		
+		p{
+			padding: 0px;
+		}
+	</style>
+<!-- InstanceEndEditable -->
+	
+</head>
+
+<body>
+	
+	<!-- InstanceBeginEditable name="Prologue" --><!-- InstanceEndEditable -->
+	<header>		<!-- The header -->
+		<img src="../Images/Logo/Logo.png" alt="Logo" class="logo"/>	<!-- The website logo -->
+
+		<h1 class="carCorp"> 
+			CAR CORP. <br>		<!-- Website name -->
+			<span class="slogan"> Knowledge fuels your journey! </span>	<!-- Website slogan -->
+		</h1>
+	</header>
+	
+	<aside>		
+		<button id="sidebarClose"> Click Here </button>	<!-- Sidebar open and close button -->
+		
+			<div class="sidebar">			<!-- Sidebar -->
+				<nav class="sidebarLinks">
+					<button id="homeButton"> Home Page </button>	<!-- Home page button -->
+					<button id="allCarsButton"> See All Cars </button>	<!-- All cars button -->
+					<button id="contactButton"> Contact Us </button>  <!-- Contact us button -->
+				</nav>
+			</div>
+	</aside>
+	
+<!-- InstanceBeginEditable name="Main" -->
+	<main>
+		<section>
+			<h1 class="heading"> Welcome to Car Corp!</h1>
+			
+				<p class="introduction"> The Ultimate Car Buying Guide: Teaching You Everything You Need To Know Before Making Your Purchase!</p>
+			
+			<h1 class="subHeading1"> About Us: </h1>
+			
+				<p class="introduction"> At Car Corp, we believe knowledge is the key to your perfect car. Our website empowers you with informed car buying decisions. Discover everything about various car types, finding the one that suits your lifestyle and needs! </p>
+			
+			<h1 class="subHeading1"> Getting Started: </h1>
+			
+				<p class="introduction"> Below, you'll find two cars to get you started. If you want to explore all the available car types, simply click on the "Click Here" button to your left and navigate our website. </p>
+		</section>
+		
+		<section>
+			<table style="padding-left: 160px; padding-bottom: 50px;"><!-- Inline stylesheet -->
+				<tr>
+					<td>
+						<figure>
+							<img src="../Images/Hatchback.jpg" alt="Hatchback" class="carImage"/>
+						</figure>
+					</td>
+					
+					<td>
+						<figure>
+							<img src="../Images/Minivan.jpg" alt="Minivan" class="carImage"/>
+						</figure>
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="padding-left: 50px; padding-right: 50px;">
+						<h1> The Hatchback: </h1>
+						
+						<p> A Hatchback is a smaller vehicle with 2 - 4 doors (depending on the model) and a boot at the back. They are light on fuel and cost effective.</p>
+						
+						<button id="hatchbackButton" class="readMore"> Read More </button>
+					</td>
+					
+					<td style="padding-left: 50px; padding-right: 50px;">
+						<h1> The Minivan: </h1>
+						
+						<p> A Minivan is a larger vehicle with a body that sits lower to the ground, when compared to other similar vehicles. It typically has sliding or hinged rear doors and 3 rows of seats. </p>
+						
+						<button id="minivanButton" class="readMore"> Read More </button>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</main>
+	<!-- InstanceEndEditable -->
+	
+	<footer>	<!-- The footer -->
+		<span> &copy; 2023 Car Corp. </span>
+	</footer>
+	
+	<!-- External Javascript -->
+	<script language="javascript" src="../Javascript/Javascript.js"></script>
+</body>
+<!-- InstanceEnd --></html>

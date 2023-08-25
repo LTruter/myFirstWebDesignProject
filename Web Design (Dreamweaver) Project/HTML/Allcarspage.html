@@ -1,0 +1,143 @@
+<!doctype html>
+<!--
+	Author: Lario Truter
+	Date: 17 July 2023
+	Filename: Allcarspage.html
+	Description: The Index page of all the car pages.
+-->
+<html><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	
+<!-- InstanceBeginEditable name="Title" -->
+<title> All Cars page </title>
+<!-- InstanceEndEditable -->
+	
+<link rel="stylesheet" href="../CSS/stylesheet.css"> <!-- External stylesheet -->
+	
+<!-- InstanceBeginEditable name="Style tag" -->
+	<style>
+		.readMore{
+			width: 20%;
+			padding: 10px;
+		}
+		
+		p{
+			padding-left: 50px;
+			padding-right: 100px;
+		}
+	</style>
+<!-- InstanceEndEditable -->
+	
+</head>
+
+<body>
+	
+	<!-- InstanceBeginEditable name="Prologue" --><!-- InstanceEndEditable -->
+	<header>		<!-- The header -->
+		<img src="../Images/Logo/Logo.png" alt="Logo" class="logo"/>	<!-- The website logo -->
+
+		<h1 class="carCorp"> 
+			CAR CORP. <br>		<!-- Website name -->
+			<span class="slogan"> Knowledge fuels your journey! </span>	<!-- Website slogan -->
+		</h1>
+	</header>
+	
+	<aside>		
+		<button id="sidebarClose"> Click Here </button>	<!-- Sidebar open and close button -->
+		
+			<div class="sidebar">			<!-- Sidebar -->
+				<nav class="sidebarLinks">
+					<button id="homeButton"> Home Page </button>	<!-- Home page button -->
+					<button id="allCarsButton"> See All Cars </button>	<!-- All cars button -->
+					<button id="contactButton"> Contact Us </button>  <!-- Contact us button -->
+				</nav>
+			</div>
+	</aside>
+	
+<!-- InstanceBeginEditable name="Main" -->
+	<main>
+		<section>
+			<h1 class="heading"> All Cars: </h1>
+			
+			<table style="padding-left: 160px; padding-bottom: 50px;">
+				<!-- The hatchback -->
+				<tr>
+					<td>
+						<figure>
+							<img src="../Images/Hatchback.jpg" alt="Hatchback" class="carImage"/>
+						</figure>
+					</td>
+					
+					<td>
+						<h1> The Hatchback: </h1>
+						
+						<p> A Hatchback is a smaller vehicle with 2 - 4 doors (depending on the model) and a boot at the back. They are light on fuel and cost effective.</p>
+						
+						<button id="hatchbackButton" class="readMore"> Read More </button>
+					</td>
+				</tr>
+				
+				<!-- The Minivan-->
+				<tr>
+					<td>
+						<figure>
+							<img src="../Images/Minivan.jpg" alt="Minivan" class="carImage"/>
+						</figure>
+					</td>
+					
+					<td>
+						<h1> The Minivan: </h1>
+						
+						<p> A Minivan is a larger vehicle with a body that sits lower to the ground, when compared to other similar vehicles. It typically has sliding or hinged rear doors and 3 rows of seats. </p>
+						
+						<button id="minivanButton" class="readMore"> Read More </button>
+					</td>
+				</tr>
+				
+				<!-- The Pick-up truck-->
+				<tr>
+					<td>
+						<figure>
+							<img src="../Images/Pickup truck.jpg" alt="Pick-Up truck" class="carImage"/>
+						</figure>
+					</td>
+					
+					<td>
+						<h1> The Pick-Up Truck: </h1>
+						
+						<p> A Pick-Up truck is a much larger vehicle that has a much larger, seperate storage area. </p>
+						
+						<button id="pickupTruckButton" class="readMore"> Read More </button>
+					</td>
+				</tr>
+				
+				<!-- The Sedan -->
+				<tr>
+					<td>
+						<figure>
+							<img src="../Images/Sedan.jpg" alt="Sedan" class="carImage"/>
+						</figure>
+					</td>
+					
+					<td>
+						<h1> The Sedan: </h1>
+						
+						<p> A Sedan is the vehicle that comes to mind when you think of the word "car", it's a regular sized vehicle with 4 doors and seats 4 - 5 people. </p>
+						
+						<button id="sedanButton" class="readMore"> Read More </button>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</main>
+	<!-- InstanceEndEditable -->
+	
+	<footer>	<!-- The footer -->
+		<span> &copy; 2023 Car Corp. </span>
+	</footer>
+	
+	<!-- External Javascript -->
+	<script language="javascript" src="../Javascript/Javascript.js"></script>
+</body>
+<!-- InstanceEnd --></html>
